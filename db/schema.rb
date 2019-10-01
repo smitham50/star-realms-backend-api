@@ -24,8 +24,9 @@ ActiveRecord::Schema.define(version: 2019_09_29_214624) do
     t.integer "cost"
     t.integer "combat"
     t.integer "authority"
-    t.string "special"
-    t.string "scrap"
+    t.string "ability", default: [], array: true
+    t.string "special", default: [], array: true
+    t.string "scrap", default: [], array: true
     t.integer "outpost_def"
     t.integer "base_def"
     t.datetime "created_at", null: false

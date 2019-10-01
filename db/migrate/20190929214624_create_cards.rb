@@ -9,8 +9,9 @@ class CreateCards < ActiveRecord::Migration[5.2]
       t.integer :cost
       t.integer :combat
       t.integer :authority
-      t.string :special
-      t.string :scrap
+      t.string :ability, array: true, default: []
+      t.string :special, array: true, default: []
+      t.string :scrap, array: true, default: []
       t.integer :outpost_def
       t.integer :base_def
 

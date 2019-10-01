@@ -369,6 +369,71 @@ end
 
 seed_battle_stations
 
+# SEED BRAIN WORLD
+def seed_brain_world
+  puts "Seeding Brain World"
+  Card.create(
+      name: "Brain World",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-26-Small.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Machine Cult",
+      cost: 8,
+      combat: nil,
+      authority: nil,
+      ability: ["BRAIN_WORLD"],
+      special: nil,
+      scrap: nil,
+      outpost_def: 6,
+      base_def: nil
+    )
+end
+
+seed_brain_world
+
+# SEED JUNKYARD
+def seed_junkyard
+  puts "Seeding Junkyard"
+  Card.create(
+      name: "Junkyard",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-31-Small2.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Machine Cult",
+      cost: 6,
+      combat: nil,
+      authority: nil,
+      ability: ["1SCRAP"],
+      special: nil,
+      scrap: nil,
+      outpost_def: 5,
+      base_def: nil
+    )
+end
+
+seed_junkyard
+
+# SEED MACHINE BASE
+def seed_machine_base
+  puts "Seeding Machine Base"
+  Card.create(
+      name: "Machine Base",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-28-Small.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Machine Cult",
+      cost: 7,
+      combat: nil,
+      authority: nil,
+      ability: ["MACHINE_BASE"],
+      special: nil,
+      scrap: nil,
+      outpost_def: 6,
+      base_def: nil
+    )
+end
+
+seed_machine_base
 
 
 

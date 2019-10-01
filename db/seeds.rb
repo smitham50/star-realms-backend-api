@@ -231,6 +231,75 @@ end
 
 seed_blob_world
 
+# SEED MOTHERSHIP
+def seed_mothership
+  puts "Seeding Mothership"
+  Card.create(
+      name: "Mothership",
+      picture: "https://vignette.wikia.nocookie.net/starrealms/images/4/4f/Mothership.jpg/revision/latest?cb=20160904233903",
+      trade: nil,
+      type: "Ship",
+      faction: "Blob",
+      cost: 7,
+      combat: 6,
+      authority: nil,
+      ability: ["1DRAW"],
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_mothership
+
+# SEED RAMS
+def seed_rams
+2.times do
+  puts "Seeding Rams"
+  Card.create(
+      name: "Ram",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-45-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Blob",
+      cost: 3,
+      combat: 5,
+      authority: nil,
+      ability: nil,
+      special: ["2COMBAT"],
+      scrap: ["3TRADE"],
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_rams
+
+# SEED HIVE
+def seed_hive
+  puts "Seeding Hive"
+  Card.create(
+      name: "Hive",
+      picture: "https://www.starrealms.com/wp-content/uploads/2014/01/Untitled-1-copy-42-Small1.png",
+      trade: nil,
+      type: "Base",
+      faction: "Blob",
+      cost: 4,
+      combat: 3,
+      authority: nil,
+      ability: nil,
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: 5
+    )
+end
+
+
+
+
 
 
 

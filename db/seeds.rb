@@ -297,6 +297,79 @@ def seed_hive
     )
 end
 
+seed_hive
+
+# SEED TRADE PODS
+def seed_trade_pods
+3.times do
+  puts "Seeding Trade Pods"
+  Card.create(
+      name: "Trade Pod",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-46-Small.png",
+      trade: 2,
+      type: "Ship",
+      faction: "Blob",
+      cost: 2,
+      combat: nil,
+      authority: nil,
+      ability: nil,
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_trade_pods
+
+# SEED BATTLE MECH
+def seed_battle_mech
+  puts "Seeding Battle Mech"
+  Card.create(
+      name: "Battle Mech",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-30-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 5,
+      combat: 4,
+      authority: nil,
+      ability: ["1SCRAP"],
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_battle_mech
+
+# SEED BATTLE STATIONS
+def seed_battle_stations
+2.times do
+  puts "Seeding Battle Stations"
+  Card.create(
+      name: "Battle Station",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-33-Small.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Machine Cult",
+      cost: 3,
+      combat: 5,
+      authority: nil,
+      ability: nil,
+      special: nil,
+      scrap: ["5COMBAT"],
+      outpost_def: 5,
+      base_def: nil
+    )
+  end
+end
+
+seed_battle_stations
+
+
 
 
 

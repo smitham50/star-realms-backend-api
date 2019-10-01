@@ -136,3 +136,101 @@ def seed_blob_carrier
 end
 
 seed_blob_carrier
+
+# SEED BLOB DESTROYERS
+def seed_blob_destroyers
+  2.times do
+  puts "Seeding Blob Destroyers"
+  Card.create(
+      name: "Blob Destroyer",
+      picture: "https://theclichedtavern.files.wordpress.com/2015/07/star-realms-blob-destroyer.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Blob",
+      cost: 4,
+      combat: 6,
+      authority: nil,
+      ability: nil,
+      special: ["BLOB_DESTROYER"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_blob_destroyers
+
+# SEED BLOB FIGHTERS
+def seed_blob_fighters
+  3.times do
+  puts "Seeding Blob Fighters"
+  Card.create(
+      name: "Blob Fighter",
+      picture: "https://vignette.wikia.nocookie.net/starrealms/images/5/50/BlobFighter.jpg/revision/latest?cb=20160904233251",
+      trade: nil,
+      type: "Ship",
+      faction: "Blob",
+      cost: 1,
+      combat: 3,
+      authority: nil,
+      ability: nil,
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_blob_fighters
+
+# SEED BLOB WHEELS
+def seed_blob_wheels
+  3.times do
+  puts "Seeding Blob Wheels"
+  Card.create(
+      name: "Blob Fighter",
+      picture: "https://vignette.wikia.nocookie.net/starrealms/images/5/50/BlobFighter.jpg/revision/latest?cb=20160904233251",
+      trade: nil,
+      type: "Base",
+      faction: "Blob",
+      cost: 3,
+      combat: 1,
+      authority: nil,
+      ability: nil,
+      special: nil,
+      scrap: ["3TRADE"],
+      outpost_def: nil,
+      base_def: 5
+    )
+  end
+end
+
+seed_blob_wheels
+
+# SEED BLOB WORLD
+def seed_blob_world
+  puts "Seeding Blob World"
+  Card.create(
+      name: "Blob World",
+      picture: "http://starrealms.com/wp-content/uploads/2014/01/Untitled-1-copy-38-Small.png",
+      trade: nil,
+      type: "Base",
+      faction: "Blob",
+      cost: 8,
+      combat: 5,
+      authority: nil,
+      ability: ["BLOB_WORLD"],
+      special: nil,
+      scrap: nil,
+      outpost_def: nil,
+      base_def: 7
+    )
+end
+
+seed_blob_world
+
+
+
+

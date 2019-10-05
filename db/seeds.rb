@@ -435,6 +435,169 @@ end
 
 seed_machine_base
 
+# SEED MECH WORLD
+
+def seed_mech_world
+  puts "Seeding Mech World"
+  Card.create(
+      name: "Mech World",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-28-Small.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Machine Cult",
+      cost: 5,
+      combat: nil,
+      authority: nil,
+      ability: ["MECH_WORLD"],
+      special: nil,
+      scrap: nil,
+      outpost_def: 6,
+      base_def: nil
+    )
+end
+
+seed_mech_world
+
+# SEED MISSILE BOTS
+def seed_missile_bots
+3.times do
+  puts "Seeding Missile Bots"
+  Card.create(
+      name: "Missile Bot",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-36.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 2,
+      combat: 2,
+      authority: nil,
+      ability: ["1SCRAP"],
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_missile_bots
+
+# SEED MISSILE MECH
+def seed_missile_mech
+  puts "Seeding Missile Mech"
+  Card.create(
+      name: "Missile Mech",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-27-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 6,
+      combat: 6,
+      authority: nil,
+      ability: ["MISSILE_MECH"],
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_missile_mech
+
+# SEED PATROL MECHS
+def seed_patrol_mechs
+2.times do
+  puts "Seeding Patrol Mechs"
+  Card.create(
+      name: "Patrol Mech",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-32-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 4,
+      combat: nil,
+      authority: nil,
+      ability: ["PATROL_MECH"],
+      special: ["1SCRAP"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_patrol_mechs
+
+# SEED STEALTH NEEDLE
+def seed_stealth_needle
+  puts "Seeding Stealth Needle"
+  Card.create(
+      name: "Stealth Needle",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-34-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 4,
+      combat: nil,
+      authority: nil,
+      ability: ["STEALTH_NEEDLE"],
+      special: nil,
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_stealth_needle
+
+# SEED SUPPLY BOTS
+def seed_supply_bots
+3.times do
+  puts "Seeding Supply Bots"
+  Card.create(
+      name: "Supply Bot",
+      picture: "http://tradingcardgames.com/wp-content/uploads/2015/05/SupplyBot.jpg",
+      trade: 2,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 3,
+      combat: nil,
+      authority: nil,
+      ability: ["1SCRAP"],
+      special: ["1COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_supply_bots
+
+# SEED TRADE BOTS
+def seed_trade_bots
+3.times do
+  puts "Seeding Trade Bots"
+  Card.create(
+      name: "Trade Bot",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-37.png",
+      trade: 1,
+      type: "Ship",
+      faction: "Machine Cult",
+      cost: 1,
+      combat: nil,
+      authority: nil,
+      ability: ["1SCRAP"],
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_trade_bots
+
 
 
 

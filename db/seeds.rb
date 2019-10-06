@@ -642,6 +642,102 @@ def seed_corvettes
   end
 end
 
+seed_corvettes
+
+# SEED DREADNAUGHT
+def seed_dreadnaught
+  puts "Seeding Dreadnaught"
+  Card.create(
+      name: "Dreadnaught",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-16.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Star Empire",
+      cost: 7,
+      combat: 7,
+      authority: nil,
+      ability: ["1DRAW"],
+      special: nil,
+      scrap: ["5COMBAT"],
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_dreadnaught
+
+# SEED FLEET HQ
+def seed_fleet_hq
+  puts "Seeding Fleet HQ"
+  Card.create(
+      name: "Fleet HQ",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-15.png",
+      trade: nil,
+      type: "Base",
+      faction: "Star Empire",
+      cost: 8,
+      combat: nil,
+      authority: nil,
+      ability: ["FLEETHQ"],
+      special: nil,
+      scrap: nil,
+      outpost_def: nil,
+      base_def: 8
+    )
+end
+
+seed_fleet_hq
+
+# SEED IMPERIAL FIGHTERS
+def seed_imperial_fighters
+3.times do
+  puts "Seeding Imperial Fighters"
+  Card.create(
+      name: "Imperial Fighter",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-24.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Star Empire",
+      cost: 1,
+      combat: 2,
+      authority: nil,
+      ability: ["1DISCARD"],
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_imperial_fighters
+
+# SEED IMPERIAL FRIGATES
+def seed_imperial_frigates
+3.times do
+  puts "Seeding Imperial Frigates"
+  Card.create(
+      name: "Imperial Frigate",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-23.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Star Empire",
+      cost: 3,
+      combat: 4,
+      authority: nil,
+      ability: ["1DISCARD"],
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_imperial_frigates
+
+
+
 
 
 

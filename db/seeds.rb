@@ -598,6 +598,52 @@ end
 
 seed_trade_bots
 
+# SEED BATTLECRUISER
+def seed_battlecruiser
+  puts "Seeding Battlecruiser"
+  Card.create(
+      name: "Battlecruiser",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-17.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Star Empire",
+      cost: 6,
+      combat: 5,
+      authority: nil,
+      ability: ["1DRAW"],
+      special: ["1DISCARD"],
+      scrap: ["BATTLECRUISER"],
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_battlecruiser
+
+# SEED CORVETTES
+def seed_corvettes
+2.times do
+  puts "Seeding Corvettes"
+  Card.create(
+      name: "Corvette",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-25.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Star Empire",
+      cost: 2,
+      combat: 1,
+      authority: nil,
+      ability: ["1DRAW"],
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+
+
 
 
 

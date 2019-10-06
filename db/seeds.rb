@@ -1,7 +1,7 @@
 # SEED PERSONAL DECKS
 def seed_scouts
   16.times do
-    puts "Seeding Scouts"
+    puts "Seeding Scout"
     Card.create(
       name: "Scout",
       picture: "http://www.starrealms.com/wp-content/uploads/2015/05/scout_fixed-213x300.jpg",
@@ -24,7 +24,7 @@ seed_scouts
 
 def seed_vipers
   4.times do
-    puts "Seeding Vipers"
+    puts "Seeding Viper"
     Card.create(
       name: "Viper",
       picture: "https://vignette.wikia.nocookie.net/starrealms/images/8/8b/Viper.jpg/revision/latest?cb=20160904232404",
@@ -48,7 +48,7 @@ seed_vipers
 # SEED EXPLORERS
 def seed_explorers
   10.times do
-    puts "Seeding Explorers"
+    puts "Seeding Explorer"
     Card.create(
       name: "Explorers",
       picture: "https://vignette.wikia.nocookie.net/starrealms/images/3/3a/Explorer.jpg/revision/latest?cb=20160904232424",
@@ -140,7 +140,7 @@ seed_blob_carrier
 # SEED BLOB DESTROYERS
 def seed_blob_destroyers
   2.times do
-  puts "Seeding Blob Destroyers"
+  puts "Seeding Blob Destroyer"
   Card.create(
       name: "Blob Destroyer",
       picture: "https://theclichedtavern.files.wordpress.com/2015/07/star-realms-blob-destroyer.png",
@@ -164,7 +164,7 @@ seed_blob_destroyers
 # SEED BLOB FIGHTERS
 def seed_blob_fighters
   3.times do
-  puts "Seeding Blob Fighters"
+  puts "Seeding Blob Fighter"
   Card.create(
       name: "Blob Fighter",
       picture: "https://vignette.wikia.nocookie.net/starrealms/images/5/50/BlobFighter.jpg/revision/latest?cb=20160904233251",
@@ -188,7 +188,7 @@ seed_blob_fighters
 # SEED BLOB WHEELS
 def seed_blob_wheels
   3.times do
-  puts "Seeding Blob Wheels"
+  puts "Seeding Blob Wheel"
   Card.create(
       name: "Blob Fighter",
       picture: "https://vignette.wikia.nocookie.net/starrealms/images/5/50/BlobFighter.jpg/revision/latest?cb=20160904233251",
@@ -256,7 +256,7 @@ seed_mothership
 # SEED RAMS
 def seed_rams
 2.times do
-  puts "Seeding Rams"
+  puts "Seeding Ram"
   Card.create(
       name: "Ram",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-45-Small.png",
@@ -302,7 +302,7 @@ seed_hive
 # SEED TRADE PODS
 def seed_trade_pods
 3.times do
-  puts "Seeding Trade Pods"
+  puts "Seeding Trade Pod"
   Card.create(
       name: "Trade Pod",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-46-Small.png",
@@ -348,7 +348,7 @@ seed_battle_mech
 # SEED BATTLE STATIONS
 def seed_battle_stations
 2.times do
-  puts "Seeding Battle Stations"
+  puts "Seeding Battle Station"
   Card.create(
       name: "Battle Station",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-33-Small.png",
@@ -461,7 +461,7 @@ seed_mech_world
 # SEED MISSILE BOTS
 def seed_missile_bots
 3.times do
-  puts "Seeding Missile Bots"
+  puts "Seeding Missile Bot"
   Card.create(
       name: "Missile Bot",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-36.png",
@@ -507,7 +507,7 @@ seed_missile_mech
 # SEED PATROL MECHS
 def seed_patrol_mechs
 2.times do
-  puts "Seeding Patrol Mechs"
+  puts "Seeding Patrol Mech"
   Card.create(
       name: "Patrol Mech",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-32-Small.png",
@@ -553,7 +553,7 @@ seed_stealth_needle
 # SEED SUPPLY BOTS
 def seed_supply_bots
 3.times do
-  puts "Seeding Supply Bots"
+  puts "Seeding Supply Bot"
   Card.create(
       name: "Supply Bot",
       picture: "http://tradingcardgames.com/wp-content/uploads/2015/05/SupplyBot.jpg",
@@ -577,7 +577,7 @@ seed_supply_bots
 # SEED TRADE BOTS
 def seed_trade_bots
 3.times do
-  puts "Seeding Trade Bots"
+  puts "Seeding Trade Bot"
   Card.create(
       name: "Trade Bot",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-37.png",
@@ -623,7 +623,7 @@ seed_battlecruiser
 # SEED CORVETTES
 def seed_corvettes
 2.times do
-  puts "Seeding Corvettes"
+  puts "Seeding Corvette"
   Card.create(
       name: "Corvette",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-25.png",
@@ -691,7 +691,7 @@ seed_fleet_hq
 # SEED IMPERIAL FIGHTERS
 def seed_imperial_fighters
 3.times do
-  puts "Seeding Imperial Fighters"
+  puts "Seeding Imperial Fighter"
   Card.create(
       name: "Imperial Fighter",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-24.png",
@@ -715,7 +715,7 @@ seed_imperial_fighters
 # SEED IMPERIAL FRIGATES
 def seed_imperial_frigates
 3.times do
-  puts "Seeding Imperial Frigates"
+  puts "Seeding Imperial Frigate"
   Card.create(
       name: "Imperial Frigate",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-23.png",
@@ -739,7 +739,7 @@ seed_imperial_frigates
 # SEED RECYCLING STATIONS
 def seed_recycling_stations
 2.times do
-  puts "Seeding Recycling Stations"
+  puts "Seeding Recycling Station"
   Card.create(
       name: "Recycling Station",
       picture: "http://www.starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-191.png",
@@ -785,7 +785,7 @@ seed_royal_redoubt
 # SEED SPACE STATIONS
 def seed_space_stations
 2.times do
-  puts "Seeding Space Stations"
+  puts "Seeding Space Station"
   Card.create(
       name: "Space Station",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-21.png",
@@ -809,7 +809,7 @@ seed_space_stations
 # SEED SURVEY SHIPS
 def seed_survey_ships
 3.times do
-  puts "Seeding Survey Ships"
+  puts "Seeding Survey Ship"
   Card.create(
       name: "Survey Ship",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-22.png",
@@ -855,7 +855,7 @@ seed_war_world
 # SEED BARTER WORLD
 def seed_barter_worlds
 2.times do
-  puts "Seeding Barter Worlds"
+  puts "Seeding Barter World"
   Card.create(
       name: "Barter World",
       picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-9-Small.png",
@@ -920,6 +920,213 @@ end
 
 seed_command_ship
 
+# SEED CUTTERS
+def seed_cutters
+3.times do
+  puts "Seeding Cutter"
+  Card.create(
+      name: "Cutter",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-13-Small.png",
+      trade: 2,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 2,
+      combat: nil,
+      authority: 4,
+      ability: nil,
+      special: ["4COMBAT"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_cutters
+
+# SEED DEFENSE CENTER
+def seed_defense_center
+  puts "Seeding Defence Center"
+  Card.create(
+      name: "Defence Center",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-7-Small.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Trade Federation",
+      cost: 5,
+      combat: nil,
+      authority: nil,
+      ability: ["DEFENSE_CENTER"],
+      special: ["2COMBAT"],
+      scrap: nil,
+      outpost_def: 5,
+      base_def: nil
+    )
+end
+
+seed_defense_center
+
+# SEED EMBASSY YACHTS
+def seed_embassy_yachts
+2.times do
+  puts "Seeding Embassy Yacht"
+  Card.create(
+      name: "Embassy Yacht",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-11-Small.png",
+      trade: 2,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 3,
+      combat: nil,
+      authority: 3,
+      ability: ["EMBASSY_YACHT"],
+      special: nil,
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_embassy_yachts
+
+# SEED FEDERATION SHUTTLES
+def seed_federation_shuttles
+3.times do
+  puts "Seeding Federation Shuttle"
+  Card.create(
+      name: "Federation Shuttle",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-14-Small.png",
+      trade: 2,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 1,
+      combat: nil,
+      authority: nil,
+      ability: nil,
+      special: ["4AUTHORITY"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_federation_shuttles
+
+# SEED FLAGSHIP
+def seed_flagship
+  puts "Seeding Flagship"
+  Card.create(
+      name: "Flagship",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-5-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 6,
+      combat: 5,
+      authority: nil,
+      ability: ["1DRAW"],
+      special: ["5AUTHORITY"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_flagship
+
+# SEED FREIGHTERS
+def seed_freighters
+2.times do
+  puts "Seeding Freighter"
+  Card.create(
+      name: "Freighter",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-10-Small.png",
+      trade: 4,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 4,
+      combat: nil,
+      authority: nil,
+      ability: nil,
+      special: ["TOP_DECK"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_freighters
+
+# SEED PORT OF CALL
+def seed_port_of_call
+  puts "Seeding Port of Call"
+  Card.create(
+      name: "Port of Call",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-6-Small.png",
+      trade: 3,
+      type: "Outpost",
+      faction: "Trade Federation",
+      cost: 6,
+      combat: 5,
+      authority: nil,
+      ability: nil,
+      special: nil,
+      scrap: ["PORT_OF_CALL"],
+      outpost_def: 6,
+      base_def: nil
+    )
+end
+
+seed seed_port_of_call
+
+# SEED TRADE ESCORT
+def seed_trade_escort
+  puts "Seeding Trade Escort"
+  Card.create(
+      name: "Trade Escort",
+      picture: "https://vignette.wikia.nocookie.net/starrealms/images/9/92/Tradeescort.jpg/revision/latest?cb=20160901192417",
+      trade: nil,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 5,
+      combat: 4,
+      authority: 4,
+      ability: nil,
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_trade_escort
+
+# SEED TRADING POSTS
+def seed_trading_posts
+2.times do
+  puts "Trading Post"
+  Card.create(
+      name: "Trading Post",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-12-Small.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Trade Federation",
+      cost: 3,
+      combat: nil,
+      authority: nil,
+      ability: ["TRADING_POST"],
+      special: nil,
+      scrap: ["3COMBAT"],
+      outpost_def: 4,
+      base_def: nil
+    )
+  end
+end
+
+seed_trading_posts
 
 
 

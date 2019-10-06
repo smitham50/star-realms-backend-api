@@ -852,6 +852,74 @@ end
 
 seed_war_world
 
+# SEED BARTER WORLD
+def seed_barter_worlds
+2.times do
+  puts "Seeding Barter Worlds"
+  Card.create(
+      name: "Barter World",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-9-Small.png",
+      trade: nil,
+      type: "Base",
+      faction: "Trade Federation",
+      cost: 4,
+      combat: nil,
+      authority: nil,
+      ability: ["BARTER_WORLD"],
+      special: nil,
+      scrap: ["5COMBAT"],
+      outpost_def: nil,
+      base_def: 4
+    )
+  end
+end
+
+seed_barter_worlds
+
+# SEED CENTRAL OFFICE
+def seed_central_office
+  puts "Seeding Central Office"
+  Card.create(
+      name: "Central Office",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-4-Small.png",
+      trade: 2,
+      type: "Base",
+      faction: "Trade Federation",
+      cost: 7,
+      combat: nil,
+      authority: nil,
+      ability: ["CENTRAL_OFFICE"],
+      special: ["1DRAW"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: 6
+    )
+end
+
+seed_central_office
+
+# SEED COMMAND SHIP
+def seed_command_ship
+  puts "Seeding Command Ship"
+  Card.create(
+      name: "Command Ship",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-3-Small.png",
+      trade: nil,
+      type: "Ship",
+      faction: "Trade Federation",
+      cost: 8,
+      combat: 5,
+      authority: 4,
+      ability: ["2DRAW"],
+      special: ["BASE_DESTROY"],
+      scrap: nil,
+      outpost_def: nil,
+      base_def: nil
+    )
+end
+
+seed_command_ship
+
 
 
 

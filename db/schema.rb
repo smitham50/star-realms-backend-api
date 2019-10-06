@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_09_29_214624) do
     t.string "name"
     t.string "picture"
     t.integer "trade"
-    t.string "type"
+    t.string "card_type"
     t.string "faction"
     t.integer "cost"
     t.integer "combat"

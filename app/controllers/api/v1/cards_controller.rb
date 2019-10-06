@@ -12,7 +12,7 @@ class Api::V1::CardsController < ApplicationController
       description: params[:description], 
       picture: params[:picture], 
       cost: params[:cost], 
-      card_type: params[:type], 
+      card_type: params[:card_type], 
       triggers: params[:triggers], 
       victory_points: params[:victory_points], 
       value: params[:value], 

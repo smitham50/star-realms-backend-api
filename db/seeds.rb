@@ -736,6 +736,122 @@ end
 
 seed_imperial_frigates
 
+# SEED RECYCLING STATIONS
+def seed_recycling_stations
+2.times do
+  puts "Seeding Recycling Stations"
+  Card.create(
+      name: "Recycling Station",
+      picture: "http://www.starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-191.png",
+      trade: 1,
+      type: "Outpost",
+      faction: "Star Empire",
+      cost: 4,
+      combat: nil,
+      authority: nil,
+      ability: ["RECYCLING_STATION"],
+      special: nil,
+      scrap: nil,
+      outpost_def: 4,
+      base_def: nil
+    )
+  end
+end
+
+seed_recycling_stations
+
+# SEED ROYAL REDOUBT
+def seed_royal_redoubt
+  puts "Seeding Royal Redoubt"
+  Card.create(
+      name: "Royal Redoubt",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-18.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Star Empire",
+      cost: 6,
+      combat: 3,
+      authority: nil,
+      ability: ["FLEETHQ"],
+      special: ["ROYAL_REDOUBT"],
+      scrap: nil,
+      outpost_def: 6,
+      base_def: nil
+    )
+end
+
+seed_royal_redoubt
+
+# SEED SPACE STATIONS
+def seed_space_stations
+2.times do
+  puts "Seeding Space Stations"
+  Card.create(
+      name: "Space Station",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-21.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Star Empire",
+      cost: 4,
+      combat: 2,
+      authority: nil,
+      ability: nil,
+      special: ["2COMBAT"],
+      scrap: ["4TRADE"],
+      outpost_def: 4,
+      base_def: nil
+    )
+  end
+end
+
+seed_space_stations
+
+# SEED SURVEY SHIPS
+def seed_survey_ships
+3.times do
+  puts "Seeding Survey Ships"
+  Card.create(
+      name: "Survey Ship",
+      picture: "http://starrealms.com/wp-content/uploads/2013/12/Untitled-1-copy-22.png",
+      trade: 1,
+      type: "Ship",
+      faction: "Star Empire",
+      cost: 3,
+      combat: nil,
+      authority: nil,
+      ability: ["1DRAW"],
+      special: nil,
+      scrap: ["1DISCARD"],
+      outpost_def: nil,
+      base_def: nil
+    )
+  end
+end
+
+seed_survey_ships
+
+# SEED WAR WORLD
+def seed_war_world
+  puts "Seeding War World"
+  Card.create(
+      name: "War World",
+      picture: "https://www.cardboardrepublic.com/wp-content/uploads/2014/06/star-realms-war-world.png",
+      trade: nil,
+      type: "Outpost",
+      faction: "Star Empire",
+      cost: 5,
+      combat: 3,
+      authority: nil,
+      ability: nil,
+      special: ["4COMBAT"],
+      scrap: nil,
+      outpost_def: 4,
+      base_def: nil
+    )
+end
+
+seed_war_world
+
 
 
 
